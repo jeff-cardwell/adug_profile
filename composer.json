@@ -1,0 +1,13 @@
+{
+    "name": "adug/adug_profile",
+    "description": "Custom profile using standard profile dependencies as a starting point",
+    "type": "drupal-profile",
+    "authors": [
+        {
+            "name": "Jeff Cardwell",
+            "email": "jeffcardwell@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
