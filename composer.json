@@ -9,5 +9,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "repositories": {
+        "adug_profile_site_feature": {
+            "type": "git",
+            "url": "git@gitlab.com:adug/adug_profile_site_feature.git"
+        }
+    }
 }
