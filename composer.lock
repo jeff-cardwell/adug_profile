@@ -1,0 +1,42 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8139e9455e77dab3c28adcbdd3c1e1a4",
+    "content-hash": "033056d822d2c4587151a6b37a22b269",
+    "packages": [
+        {
+            "name": "adug/adug_profile_site_feature",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:adug/adug_profile_site_feature.git",
+                "reference": "0b7d73764ab40ddbe83dcd2793b3fd87d3584aaf"
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Cardwell",
+                    "email": "jeffcardwellbusiness@gmail.com"
+                }
+            ],
+            "description": "Test Feature",
+            "time": "2016-08-12 19:14:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "adug/adug_profile_site_feature": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
