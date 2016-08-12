@@ -9,7 +9,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "adug/adug_profile_site_feature": "dev-master"
+    },
     "repositories": {
         "adug_profile_site_feature": {
             "type": "git",
