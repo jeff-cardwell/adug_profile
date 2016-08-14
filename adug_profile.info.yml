@@ -41,6 +41,9 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+
+  - features
+  - feature_ui
 themes:
   - bartik
   - seven
