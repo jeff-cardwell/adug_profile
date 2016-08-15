@@ -18,4 +18,6 @@ function adug_profile_install() {
   standard_install();
 
   // Add code here to make nodes, terms, etc.
+  adug_profile_set_uuid('edd16a57-4e3c-45b6-b05d-7e902614a8da');
+
 }
