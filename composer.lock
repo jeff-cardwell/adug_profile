@@ -4,9 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "697fbf98d3532b3f6252704a75021ceb",
-    "content-hash": "ced21b4a7155756fafffb42869f239f3",
+    "hash": "c97b227ef8ba90abad14f82b91393a75",
+    "content-hash": "70f2bb2eac8a3200450087edc1881f02",
     "packages": [
+        {
+            "name": "adug/custom_test_block_feature",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/adug/custom_test_block_feature.git",
+                "reference": "3ba5d8eda952879a3d3a4ea26d9e21d538d384a1"
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Cardwell",
+                    "email": "jeffcardwellbusiness@gmail.com"
+                }
+            ],
+            "description": "Test Feature",
+            "time": "2016-08-15 20:27:39"
+        },
         {
             "name": "composer/semver",
             "version": "1.4.1",
@@ -478,7 +499,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.1.zip",
-                "reference": null,
+                "reference": "8.x-1.1",
                 "shasum": "21a351d44796e742944e8b2fedc283b888369e38"
             },
             "require": {
@@ -2803,7 +2824,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/features": 20
+        "drupal/features": 20,
+        "adug/custom_test_block_feature": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
