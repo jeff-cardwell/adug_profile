@@ -4,30 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "30bc920c0822d9f8b6c8e1652ba61681",
-    "content-hash": "ead5f3a4210358f6114ae4878b606f05",
+    "hash": "697fbf98d3532b3f6252704a75021ceb",
+    "content-hash": "ced21b4a7155756fafffb42869f239f3",
     "packages": [
-        {
-            "name": "adug/adug_profile_site_feature",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@gitlab.com:adug/adug_profile_site_feature.git",
-                "reference": "0b7d73764ab40ddbe83dcd2793b3fd87d3584aaf"
-            },
-            "type": "drupal-module",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Jeff Cardwell",
-                    "email": "jeffcardwellbusiness@gmail.com"
-                }
-            ],
-            "description": "Test Feature",
-            "time": "2016-08-12 19:14:06"
-        },
         {
             "name": "composer/semver",
             "version": "1.4.1",
@@ -2824,8 +2803,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/features": 20,
-        "adug/adug_profile_site_feature": 20
+        "drupal/features": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

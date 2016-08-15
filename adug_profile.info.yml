@@ -44,7 +44,6 @@ dependencies:
 
   - features
   - features_ui
-  - site
 themes:
   - bartik
   - seven
