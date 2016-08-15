@@ -43,6 +43,7 @@ dependencies:
   - automated_cron
 
   - features
+  - adug_profile_site_feature
 themes:
   - bartik
   - seven
