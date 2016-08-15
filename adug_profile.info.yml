@@ -43,7 +43,6 @@ dependencies:
   - automated_cron
 
   - features
-  - feature_ui
 themes:
   - bartik
   - seven
