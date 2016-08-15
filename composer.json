@@ -11,17 +11,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "drupal/features": "3.x-dev",
-        "adug/adug_profile_site_feature": "dev-master"
+        "drupal/features": "3.x-dev"
     },
     "repositories": {
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        "adug_profile_site_feature": {
-            "type": "git",
-            "url": "git@gitlab.com:adug/adug_profile_site_feature.git"
         }
     }
 }
