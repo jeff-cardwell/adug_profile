@@ -17,9 +17,8 @@ function adug_profile_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
-  // Add code here to make nodes, terms, etc.
- // adug_profile_set_uuid('edd16a57-4e3c-45b6-b05d-7e902614a8da');
-//http://dcycleproject.org/blog/68/approach-code-driven-development-drupal-8
-  $uuid = 'edd16a57-4e3c-45b6-b05d-7e902614a8da'; 
+  // Set the uuid so that uuid bound configuration will transfer
+  //http://dcycleproject.org/blog/68/approach-code-driven-development-drupal-8
+  $uuid = 'edd16a57-4e3c-45b6-b05d-7e902614a8da';
   Drupal::configFactory() ->getEditable('system.site') ->set('uuid', $uuid) ->save();
 }
